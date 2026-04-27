@@ -1,6 +1,14 @@
+"""Módulo app.py - Funciones de ejemplo."""
+
+
 def suma(a: int, b: int) -> int:
-        """ docstring function
-        # debe dar errores en linter
-        """
-        x = "no se usa"
-        return a+ b
+    """Docstring function.
+    
+    Args:
+        a: Primer número entero.
+        b: Segundo número entero.
+    
+    Returns:
+        La suma de a y b.
+    """
+    return a + b
