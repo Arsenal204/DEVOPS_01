@@ -3,7 +3,7 @@ name: Pylint
 on:
   pull_request:
     branches:
-      - main # Cambia según rama principal
+      - main # Cambian según rama principales
     paths:
       - "**.py" # Se dispara sólo con esos ficheros
 
